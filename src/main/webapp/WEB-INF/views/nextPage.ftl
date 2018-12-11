@@ -6,5 +6,6 @@
 </head>
 <body>
 <h1>Sekantis Puslapis</h1>
+<a href="/users">Rodyti vartotojus</a>
 </body>
 </html>
