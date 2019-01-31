@@ -1,7 +1,6 @@
 <<!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8">
     <meta charset="UTF-8"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -18,7 +17,7 @@
     </tr>
     <#list users as user>
         <tr>
-            <td>${user.id}</td>
+            <td><a href="user/${user.id}">${user.id}</a></td>
             <td>${user.name}</td>
             <td>${user.email}</td>
             <td>${user.age}</td>

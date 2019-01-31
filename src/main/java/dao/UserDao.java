@@ -1,10 +1,10 @@
-package service;
+package dao;
 
 import java.util.List;
 
 import entity.User;
 
-public interface UserService {
+public interface UserDao {
     List<User> getAll();
 
     void save(User user);
@@ -14,4 +14,5 @@ public interface UserService {
     void update(User user);
 
     void delete(int id);
+
 }

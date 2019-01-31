@@ -1,7 +1,7 @@
 package config;
 
-import dao.UserDAOImpl;
-import dao.UserDAO;
+import dao.UserDaoImpl;
+import dao.UserDao;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -32,8 +32,8 @@ public class SpringConfig {
     }
 
     @Bean
-    public UserDAO getUserDao(){
-        return new UserDAOImpl(getJdbcTemplate());
+    public UserDao getUserDao(){
+        return new UserDaoImpl(getJdbcTemplate());
     }
 
     @Bean
